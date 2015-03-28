@@ -1,9 +1,9 @@
 #!/bin/bash
 
 function print_help() {
-    echo "convert.sh - convert image and audio file to mkv video"
+    echo "$package - convert image and audio file to mkv video"
     echo " "
-    echo "convert.sh [options]"
+    echo "$package [options] application [arguments]"
     echo " "
     echo "options:"
     echo "-h, --help                show brief help"
